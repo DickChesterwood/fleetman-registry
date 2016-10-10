@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.virtualpairprogrammers</groupId>
-	<artifactId>fleetmanregistry</artifactId>
+	<artifactId>fleetman-registry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>fleetmanregistry</name>
-	<description>Demo project for Spring Boot</description>
+	<name>fleetman-registry</name>
+	<description>Eureka Registry for Fleeman</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -63,10 +63,12 @@
 				<directory>src/main/resources</directory>
 				<includes>
 					<include>*.properties</include>
-					<include>*.yml</include>
 				</includes>
 			</resource>
+		
 		</resources>
+		
+		
 	</build>
 
 

@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class FleetmanregistryApplication {
+public class FleetmanRegistryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FleetmanregistryApplication.class, args);
+		SpringApplication.run(FleetmanRegistryApplication.class, args);
 	}
 }
